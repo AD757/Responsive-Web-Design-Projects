@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A product landing page travel app created for the FreeCodeCamp's Responsive Web Design Certification.">
+  <title>Travel App</title>
+</head>
+
+<body>
+
+<header id="header">
+  <div class="logo">
+    <img class="logo-img" id="header-img" src="img/logo.png" alt="Travel App logo" />
+  </div>
+
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#why">WHY</a></li>
+      <li><a class="nav-link" href="#features">FEATURES</a></li>
+      <li><a class="nav-link" href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <div class="grid">
+      <div class="column-60">
+        <h1>Let the journey begin</h1>
+        <p id="description">Take the next step and choose booking options that can be changed or cancelled later. So you can plan with more confidence as the world reopens.</p>
+        <button class="btn">Download</button>
+      </div>
+      <div class="column-40">
+         <div class="image-div">
+          <img id="hero-img" src="img/ticket.svg" alt="ticketfre" width="270" height="497">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="why">
+    <h2>Why you should choose Travel App</h2>
+    <div class="container">
+      <div class="card">
+        <div class="icon">
+          <img src="img/flights.svg" alt="flight icon">
+        </div>
+        <div class="desc">
+          <h3>Flights</h3>
+          <p>Many airlines have new policies so you won’t lose out if your flights need to be changed or cancelled.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="img/hotel.svg" alt="hotel icon">
+        </div>
+        <div class="desc">
+          <h3>Hotels</h3>
+          <p> It’s easy to stay flexible, you can book now then decide if it’s right to go later.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="img/car-rental.svg" alt="car-rental icon">
+        </div>
+        <div class="desc">
+          <h3>Car Rental</h3>
+          <p>Keep your options open. It’s free to cancel with most providers, or for a small fee, up to 48 hours before.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Awesome Key Features</h2>
+    <div class="grid">
+      <div class="column-60">
+        <div class="image-div">
+         <img id="hero-img" src="img/travel-app.svg" alt="travel mobile app" width="250" height="150">
+        </div>
+      </div>
+
+      <div class="column-60">
+        <ol>
+          <li>
+            <h3 id="bell">Geolocation Tracking Services</h3>
+            <p>Once a tourist reaches their destination, they want to check in to a hotel or relax in a cafe for a little while.</p>
+          </li>
+          <li>
+            <h3 id="booking">Booking Services</h3>
+            <p>The most important thing on the mind of all travelers is the place they are going to stay in.</p>
+          </li>
+          <li>
+            <h3 id="social">Social Media Sharing</h3>
+            <p>The integration of social media buttons is the feature that you cannot choose to ignore. People love to share and flaunt their experiences with their friends on social media.</p>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="info">
+    <div>
+      <h2>Book with peace of mind</h2>
+      <p>Make the next step and choose booking options that can be changed or cancelled later. 
+        So you can plan with more confidence as the world reopens.</p>
+    </div>
+    <iframe id="video" height="315" src="https://www.youtube.com/embed/hMKsVWcB2qc" allowfullscreen></iframe>
+  </section>
+
+  <section id="download">
+    <h2>Download Travel App</h2>
+    <div class="container">
+      <div class="card" id="traveler">
+        <div class="product-logo">
+          <img class="logo-img" src="img/suitcases.svg" alt="suitcases icon">
+        </div>
+        <div class="desc">
+          <h3>Features</h3>
+          <ol>
+            <li>A Travel Planner Feature</li>
+            <li>Transportation Services</li>
+            <li>Booking Services</li>
+            <li>Travel Journal</li>
+            <li>Navigation Services</li>
+          </ol>
+        </div>
+        <button class="btn">Download</button>
+      </div>
+
+      <div class="card" id="traveler">
+        <div class="product-logo">
+          <img class="logo-img" src="img/suitcases.svg" alt="suitcases icon">
+        </div>
+        <div class="desc">
+          <h3>Features</h3>
+          <ol>
+            <li>Translation Functionality</li>
+            <li>Weather Forecasts</li>
+            <li>Local Emergency Services</li>
+            <li>Social Media Account Login</li>
+            <li>Trip Reviews or Travel Recommendations</li>
+          </ol>
+        </div>
+        <button class="btn">Download</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="grid">
+      <div class="column-60">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input name="email" class="form-control" id="email" type="email" placeholder="Email address" required />
+          </div>
+          <div class="form-group">
+            <p>Message</p>
+            <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..."></textarea>
+          </div>
+          <div class="form-group">
+            <label id="submit-label" for="submit"></label>
+            <input id="submit" type="submit" value="Submit" class="btn" />
+          </div>
+        </form>
+      </div>
+
+      <div class="column-40">
+        <div class="image-div">
+          <img id="hero-img" src="img/contact.svg" alt="Contact icon" width="250" height="150">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="footer-logo">
+      <img class="logo-img" src="img/logo_new.png" alt="Travel App logo" />
+    </div>
+    <div id="footer-info">
+      <ul>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div id="copyright"> <a href="mailto:alladin.daher@hotmail.com"> AD </a> &copy; 2020</div>
+    </div>
+  </footer>
+
+</main>
+
+</body>
+
+</html>
