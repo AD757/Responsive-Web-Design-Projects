@@ -13,3 +13,15 @@ Projects completed
 - Technical Documentation Page: [Live Preview](https://codepen.io/ad757/pen/YzGNxdQ) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
 - Personal Portfolio: [Live Preview](https://codepen.io/ad757/pen/KKgavbE) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+
+## Credit
+- Icons made by Freepik from https://www.flaticon.com
+- Free images from https://www.freepik.com/
+
+
+### Author
+
+👤 **Alladin Daher**
+
+- Linkedin: [Alladin Daher](https://www.linkedin.com/in/alladin-daher-404a92117)
+- Github: [@AD757](https://github.com/AD757)
