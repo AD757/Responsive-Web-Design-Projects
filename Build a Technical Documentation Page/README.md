@@ -2,5 +2,6 @@
 
 - Technical Documentation Page: [Live Preview](https://codepen.io/ad757/pen/YzGNxdQ) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
+## Demo
 
-![documentation.png]
+![](documentation.png)
